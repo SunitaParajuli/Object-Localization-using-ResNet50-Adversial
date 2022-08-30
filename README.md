@@ -1,1 +1,5 @@
 # Object-Localization-using-ResNet50-Adversial
+
+Image localization is a spin-off of regular CNN vision algorithms. These algorithms predict classes with discrete numbers. In object localization, the algorithm predicts a set of 4 continuous numbers, namely,  x coordinate, y coordinate, height, and width, to draw a bounding box around an object of interest.
+
+In CNN-based classifiers, initial layers are convolutional neural network layers ranging from a couple of layers to 50 to 100 layers (e.g., ResNet50 or ResNet 101), and that depends on the application, amount of data, and computational resources available. The number of layers is itself a large area of research. After the CNN layers, there are a pooling layer and then one or two fully connected layers. The last layer is the output layer which gives a probability of an object being present in an image. For example, suppose an algorithm identifies 100 different objects in a  given image. Then, the last layer gives an array length of 100 and values ranging from 0 to 1 that denote the probability of an object being present in an image.
